@@ -1,0 +1,94 @@
+
+/*#intro {
+    color: green;
+
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+
+    border-style: outset;
+    border-width: 2px;
+    border-color: gold;
+    border-radius: 5px;
+    padding: 10px;
+
+    border: 5px solid;
+    width: 250px;
+    height: 150px;
+
+    background-color: white;
+
+    margin: 5%;
+
+    
+    float --> positions an element to left or right side of the container (popular for wrapping images around the container)
+    float: right
+    clear: right // used to clear the floating property
+    
+
+}*/
+
+#box1 {
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    margin: 20px;
+
+    position: relative;
+
+    top: 10px;
+    left: 10px;
+}
+
+#box2 {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 20px;
+
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+/* pseudo class = a keyword added to a selector that specifies a special state of the slected elements */
+
+a:any-link {
+    color: black;
+    font-size: 100px;
+}
+
+a:hover {
+    color: green;
+} 
+
+button {
+    background-color: red;
+    width: 300px;
+    height: 100px;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+button:active {
+    background-color: green;
+}
+
+/* li:nth-child(2) {
+    background-color: pink;
+} */
+
+li:nth-child(odd) {
+    background-color: red;
+}
+
+li:nth-child(even) {
+    background-color: blue;
+}
+
